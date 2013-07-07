@@ -14,13 +14,16 @@
 {
     self = [super init];
     if (self) {
-   }
+        // Add your subclass-specific initialization here.
+    }
     return self;
 }
 
 - (NSString *)windowNibName
 {
-    return @"Test";
+    // Override returning the nib file name of the document
+    // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
+    return @"JKDocument";
 }
 
 - (void)windowControllerDidLoadNib:(NSWindowController *)aController
