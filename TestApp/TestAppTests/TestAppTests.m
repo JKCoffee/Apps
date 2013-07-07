@@ -1,14 +1,14 @@
 //
-//  TestSampleTests.m
-//  TestSampleTests
+//  TestAppTests.m
+//  TestAppTests
 //
 //  Created by Almind on 7/7/13.
 //  Copyright (c) 2013 AlmindTest. All rights reserved.
 //
 
-#import "TestSampleTests.h"
+#import "TestAppTests.h"
 
-@implementation TestSampleTests
+@implementation TestAppTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in TestSampleTests");
+    STFail(@"Unit tests are not implemented yet in TestAppTests");
 }
 
 @end
